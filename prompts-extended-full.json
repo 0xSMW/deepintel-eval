@@ -1,0 +1,152 @@
+[
+    {
+      "id": "coral-reef-genomics",
+      "type": "factual",
+      "question": "Assume average sea‑surface temperature in major reef regions rises by 2 °C above pre‑industrial levels between 2025 and 2050. Outline a step‑by‑step plan for deploying CRISPR‑assisted coral gene edits aimed at boosting thermal tolerance by at least 1.5 °C. Specify genetic targets, delivery vectors, field‑trial protocols, and measurable endpoints. Quantify ecological risks, population‑scale benefits, and cost ranges for three rollout scenarios (pilot nurseries, regional hubs, global network). Map the roles and incentives of coastal governments, reef‑tourism industries, indigenous communities, and multilateral funders. Build a timeline from the 2016 Great Barrier Reef bleaching event to a hypothetical 2040 global program, highlighting regulatory, technical, and public‑engagement checkpoints. Include with a risk matrix (genetic drift, off‑target edits, public backlash, trade impacts) and propose safeguards for each category, drawing comparisons with gene‑drive mosquito projects."
+    },
+    {
+      "id": "protein-folding-ai",
+      "type": "factual",
+      "question": "Given that transformer‑based structure‑prediction tools now achieve sub‑Ångström accuracy on 85 % of CASP15 targets, design a benchmarking study to test performance on proteins with exotic folds discovered after 2024. Specify dataset selection, confidence metrics, and accepted error thresholds. Compare three model classes (AlphaFold‑style single‑sequence inference, large language models with structural tokens, diffusion‑based samplers) on runtime, GPU cost, and accuracy. Outline pathways to feed predictions into drug‑discovery pipelines, estimating time savings and success rates in hit identification. Identify key academic groups, start‑ups, and cloud providers likely to lead deployment. Present a risk‑benefit table covering intellectual‑property conflicts, model hallucinations, and dual‑use concerns, citing historical analogues such as AlphaFold’s impact on antimicrobial‑resistance target discovery."
+    },
+    {
+      "id": "quantum-sensor-navigation",
+      "type": "factual",
+      "question": "Assume NATO commits to fitting quantum‑interference accelerometers to all new naval vessels by 2035 to reduce GPS dependence. Provide a first‑principles assessment of how this rollout affects navigation accuracy, signal‑denial robustness, and mission cost. Detail sensor physics, required cryogenic or photonic subsystems, calibration cycles, and interfacing with legacy inertial measurement units. Quantify performance gains across blue‑water, littoral, and under‑ice environments in three deployment stages (prototype, limited fleet, full fleet). Map defense‑industrial actors, shipbuilders, and standards bodies expected to dominate procurement. Trace a timeline from the 2018 DARPA Quantum Enhanced Positioning Systems program to the 2035 fleet goal, marking technical and regulatory gates. Look at a threat matrix (jamming counter‑measures, export‑control risk, supply‑chain bottlenecks) and outline mitigation paths."
+    },
+    {
+      "id": "low-earth-orbit-congestion",
+      "type": "factual",
+      "question": "Starting from SpaceX’s 2019 first‑generation Starlink launch, project satellite counts, collision probabilities, and usable orbital slots in low Earth orbit through 2030 under three growth curves (linear, quadratic, policy‑constrained). Compute debris‑cascade risk thresholds using the Kessler‑syndrome framework. Propose governance tools—operational licensing caps, deorbit insurance, active‑debris‑removal contracts—and estimate their impact on collision risk. Map stakeholder incentives for mega‑constellation operators, emerging‑economy satellite start‑ups, insurers, military space commands, and the UN Committee on the Peaceful Uses of Outer Space. Chart a timeline of key events (FCC Part 25 rule changes, OneWeb bankruptcy, ISO debris‑mitigation standards) leading up to a hypothetical 2028 binding multilateral traffic‑management accord. Create a risk matrix covering economic loss, scientific‑mission interference, and geopolitical escalation."
+    },
+    {
+      "id": "perovskite-solar-stability",
+      "type": "factual",
+      "question": "Laboratory perovskite cells now reach 26 % efficiency but degrade below 80 % of initial output within 1,000 hours outdoors. Design a comparative study of three stability‑enhancement strategies (passivation layers, compositional grading, tandem silicon‑perovskite encapsulation). Provide material recipes, accelerated‑aging protocols, and statistical analysis methods. Model levelized cost of electricity for rooftop and utility‑scale installations under each strategy, assuming 25‑year system life. Map supply‑chain constraints for key precursors (lead iodide, conductive polymers, specialty glass) and regulatory pressures related to lead content. Build a timeline from the 2020 NREL stability consensus to a hypothetical 2030 mass‑production milestone, marking certification, bankability, and recycling checkpoints. Finish with a risk matrix covering toxicity, manufacturing yield, and patent thickets, and propose responses."
+    },
+    {
+      "id": "e-fuels-heavy-transport",
+      "type": "factual",
+      "question": "Assume the EU mandates a 30 % reduction in lifecycle CO₂ for aviation and maritime fuels by 2040 relative to 2020 levels. Construct cost curves for synthetic e‑kerosene and e‑methanol produced via direct air capture, green hydrogen, and Fischer–Tropsch synthesis at three electrolyzer cost points (€800, €300, €100 per kW). Quantify carbon‑abatement potential, power‑to‑fuel efficiency, and fuel‑price impacts on airlines and shipping lines. Map the incentives of renewable‑energy developers, refinery majors, engine OEMs, and port authorities. Trace policy and technology milestones from early Power‑to‑Liquid pilots in 2020 to the 2040 compliance year, noting feedstock availability, offtake agreements, and certification schemes. Compare two transport segments—long‑haul flights and trans‑Pacific container routes. Conclude with a risk matrix (supply volatility, indirect land‑use change, electrolysis material scarcity) and outline mitigation tactics informed by biofuel rollout history."
+    },
+    {
+      "id": "neuromorphic-hardware-roadmap",
+      "type": "factual",
+      "question": "Assume global datacenter electricity demand grows at 10 % annually and neuromorphic chips must cut inference energy per token by 100× relative to 2024 GPUs by 2032. Construct a roadmap detailing spiking‑neuron architecture advances, analog memory devices, and event‑driven communication protocols required to meet this goal. Quantify projected watts per inference and training cost at each node (28 nm, 14 nm, 7 nm, 3 nm). Map the competitive positions of IBM, Intel, BrainChip, research fabs, and wafer‑equipment vendors. Trace the path from IBM TrueNorth (2014) to a hypothetical 2032 at‑scale product, flagging funding cycles, academic breakthroughs, and standards formation. Conclude with a risk matrix (device variability, software‑toolchain immaturity, IP fragmentation) and propose mitigating actions, citing RISC‑V ecosystem lessons."
+    },
+    {
+      "id": "ai-supply-chain-risk",
+      "type": "factual",
+      "question": "After the 2021 global chip shortage, a major logic‑foundry consortium adopts AI‑driven demand forecasting across its tier‑1 suppliers. Provide a step‑by‑step analysis of how predictive models could reduce stock‑outs, inventory‑holding costs, and order lead times. Quantify gains under three forecast‑accuracy scenarios (60 %, 80 %, 95 %). Lay out data streams, model architectures, retraining cadence, and alert thresholds. Map incentives and friction points for fab operators, packaging subcontractors, fabless customers, and raw‑wafer suppliers. Trace the timeline from an initial pilot in 2022 to full deployment in 2026, noting key cybersecurity and data‑sovereignty hurdles. Conclude with a risk matrix (model drift, supply‑chain attacks, antitrust scrutiny) and suggest guardrails."
+    },
+    {
+      "id": "microplastic-bloodstream-health",
+      "type": "factual",
+      "question": "Researchers detect polyethylene‑terephthalate fragments in 70 % of study participants’ blood samples in 2024. Design a longitudinal cohort study to establish causal links between microplastics and cardiovascular disease by 2035. Specify participant selection, exposure‑quantification methods (mass‑spec, Raman), confounder controls, and statistical‑power targets. Model potential healthcare‑cost burden under three hazard‑ratio assumptions (1.05, 1.2, 1.5). Map roles of public‑health agencies, plastics manufacturers, water utilities, and insurers. Chart a timeline from first detection reports (2018) to a potential regulatory decision banning specific polymers in 2035. Conclude with a risk matrix (measurement error, public panic, substitution effects) and outline mitigation actions informed by asbestos and PFAS precedents."
+    },
+    {
+      "id": "metaverse-tax-policy",
+      "type": "factual",
+      "question": "By 2030, a leading virtual‑world platform reaches two billion monthly active users and hosts significant commerce in digital land and services. Formulate a tax‑policy response for the OECD. Identify taxable events (asset creation, transfer, rental income), valuation methodologies, and enforcement mechanisms across borders. Quantify projected revenue under three tax‑rate bands (5 %, 15 %, 30 %). Map stakeholder incentives—platform operators, content creators, national tax authorities, and users—and forecast behavioral shifts. Trace the timeline from early guidance on crypto assets (2015) to a hypothetical 2030 multilateral virtual‑asset tax convention, highlighting legal and technical hurdles. Finish with a risk matrix (double taxation, jurisdiction shopping, privacy erosion) and propose countermeasures."
+    },
+    {
+      "id": "digital-euro-impact",
+      "type": "factual",
+      "question": "Assume the ECB launches a retail digital euro on 1 January 2027 with tiered remuneration and a €3,000 holding cap per resident. Evaluate interactions with TARGET2 settlement balances, shadow‑banking activity, and retail‑payment competition up to 2032. Break down transmission pathways—household‑deposit substitution, merchant‑acceptance incentives, programmable conditional payments, and ECB real‑time telemetry. Quantify effects on narrow money, bank‑funding gaps, and policy‑rate pass‑through under three adoption levels (10 %, 30 %, 60 % of deposits). Map actions of pan‑EU banks, savings banks, big‑tech wallets, and card networks. Trace the timeline from the 2017 European Commission fintech action plan to the 2027 launch and anticipated policy tweaks to 2032. Conclude with a risk table (financial stability, data privacy, cyberattack contagion, political pushback) and suggest safeguards referencing Sweden’s e‑krona and Nigeria’s e‑Naira."
+    },
+    {
+      "id": "water-market-trading",
+      "type": "factual",
+      "question": "With climate‑driven droughts tightening water supply, California, Australia’s Murray–Darling Basin, and Spain’s Segura River Basin expand water‑rights trading between 2025 and 2035. Design a comparative study measuring price volatility, allocative efficiency, and equity outcomes across these markets. Specify transaction data to collect, econometric models to estimate elasticity of demand, and environmental‑flow thresholds. Quantify welfare gains or losses for agricultural, urban, and environmental stakeholders under three scarcity levels. Map incentives of farmers, water brokers, regulators, and indigenous communities. Trace key policy steps from the 1991 California Drought Water Bank to a hypothetical 2035 cross‑border digital water registry. Finish with a risk matrix (monopoly hoarding, ecosystem collapse, rural displacement) and propose mitigations informed by carbon‑trading experience."
+    },
+    {
+      "id": "antimicrobial-resistance-phage",
+      "type": "factual",
+      "question": "Following WHO’s 2024 call for alternatives to last‑line antibiotics, outline a pathway for bacteriophage therapy to reach phase III trials against drug‑resistant Klebsiella pneumoniae by 2029. Detail strain selection, cocktail formulation, manufacturing scale‑up, and regulatory data packages. Compare three delivery vectors—intravenous infusion, inhalable aerosols, and implantable hydrogels. Estimate costs, clinical success probabilities, and potential market size. Map roles of academic phage banks, CDMOs, hospital compassionate‑use programs, and payers. Chart precedent milestones (e.g., PhagoMed, Adaptive Phage Therapeutics) leading to a hypothetical FDA‑EMA parallel review in 2029. Conclude with a risk table (phage resistance, endotoxin contamination, reimbursement hurdles) and propose safeguards."
+    },
+    {
+      "id": "brain-computer-interface-ethics",
+      "type": "hypothetical",
+      "question": "Assume a consumer‑grade invasive brain‑computer interface offering 1,024‑channel cortical recording gains FDA clearance for home use in 2030. Frame an ethics and governance blueprint addressing informed consent, data ownership, algorithmic opacity, and social inequality. Map stakeholders—users with disabilities, neurotech firms, healthcare providers, insurers, and civil‑rights groups. Propose oversight mechanisms—licensing, audit logs, real‑time neurodata firewalls—and budgetary requirements. Compare three jurisdictional regimes (US, EU, Japan) on liability and privacy approaches. Chart a timeline from the 2019 NeurIPS policy statement to the 2030 consumer launch, tagging legislative and standards milestones. Conclude with a risk matrix (coercion, hacking, economic exclusion) and mitigation plans drawing parallels with cochlear‑implant evolution and smartphone‑data regulation."
+    },
+    {
+      "id": "climate-induced-migration",
+      "type": "hypothetical",
+      "question": "Model domestic migration within Nigeria, Ethiopia, and Mozambique under a scenario where global mean temperature rises 3 °C by 2100 and annual precipitation becomes 20 % more variable by 2040. Build a gravity‑based migration model incorporating crop‑yield shocks, river‑flood risk, and urban wage differentials. Quantify population movements, GDP impact on sending and receiving regions, and pressure on housing and health systems. Map roles of national planners, urban mayors, development banks, and civil‑society groups. Outline a timeline from today to 2040 highlighting major adaptation funding tranches, infrastructure projects, and policy shifts. Conclude with a risk table (urban slum expansion, conflict, remittance volatility) and propose response options citing Sahel migration case studies."
+    },
+    {
+      "id": "3d-printed-rocket-engines",
+      "type": "factual",
+      "question": "Assume additive manufacturing cuts part count of staged‑combustion rocket engines by 90 %. Provide a cost–benefit analysis for launch providers shifting 70 % of engine components to metal additive printing by 2028. Detail design freedom, cycle times, quality‑assurance methods (non‑destructive evaluation, in‑process monitoring), and thrust‑to‑weight impacts. Compare two materials—Inconel‑718 and GRCop‑42. Quantify CAPEX savings, engine reliability, and launch cadence under small‑sat and heavy‑lift market segments. Map supplier landscape—printer OEMs, powder producers, testing facilities—and regulatory oversight by NASA and ESA. Trace a timeline from the first printed SuperDraco engine (2013) to the 2028 target. Conclude with a risk matrix (print defects, supply scarcity, export‑control constraints) and propose contingency plans."
+    },
+    {
+      "id": "space-based-solar-power",
+      "type": "factual",
+      "question": "Japan’s JAXA and the UK’s Space Energy Initiative set a goal of delivering 1 GW of orbital solar power to Earth by 2040. Draft a step‑by‑step technical and economic roadmap covering modular satellite design, in‑space assembly, microwave beam steering, rectenna siting, and launch‑cost trends with reusable heavy‑lift vehicles. Quantify levelized cost of electricity at three launch‑price points ($1,500, $500, $100 per kg to orbit). Map partners—national space agencies, launch firms, wireless‑power start‑ups, and grid operators. Chart milestones from the 2015 SPS‑Alpha concept to a hypothetical 2040 commercial demonstration, noting legal issues around spectrum allocation and beam‑safety standards. Finish with a risk table (beam misalignment, orbital debris, financing) and propose mitigations referencing GEO telecom‑satellite history."
+    },
+    {
+      "id": "blue-hydrogen-lifecycle",
+      "type": "factual",
+      "question": "Perform a cradle‑to‑gate lifecycle assessment of blue hydrogen produced via autothermal reforming with 95 % CO₂ capture, assuming North Sea natural‑gas feedstock and offshore storage in depleted fields. Calculate greenhouse‑gas intensity, upstream methane‑leakage sensitivity, and cost per kilogram under 2025, 2030, and 2040 carbon‑price scenarios (€50, €150, €250 per tCO₂e). Map stakeholders—oil majors, carbon‑transport operators, pipeline regulators, and industrial off‑takers—and their incentive structures. Trace regulatory milestones from the 2018 EU Taxonomy green‑hydrogen criteria to a hypothetical 2035 carbon‑border adjustment mechanism. Conclude with a risk matrix (capture failure, sequestration liability, stranded‑asset exposure) and policy responses informed by CCS project history."
+    },
+    {
+      "id": "autonomous-farming-robots",
+      "type": "hypothetical",
+      "question": "Assume mid‑size grain farms in the US Midwest adopt autonomous harvesters capable of operating 22 hours per day by 2031. Quantify changes in labor demand, fuel consumption, and yield variability over a ten‑year capital‑replacement cycle. Break down adoption drivers—robot‑cost declines, crop‑insurance incentives, rural labor shortages—and simulate three market‑penetration scenarios (25 %, 50 %, 75 %). Map roles of equipment manufacturers, ag‑tech service providers, farm‑worker unions, and USDA regulators. Outline a timeline from early Deere See & Spray trials (2017) to widespread adoption in 2031, including safety certification and connectivity infrastructure. Conclude with a risk matrix (job displacement, cybersecurity, soil compaction) and propose mitigations."
+    },
+    {
+      "id": "bioinformatics-cloud-security",
+      "type": "factual",
+      "question": "Genomics consortia plan to store 100 PB of whole‑genome data on public clouds by 2027. Draft a security blueprint addressing encryption at rest, secure multiparty computation, fine‑grained access controls, and threat monitoring. Evaluate trade‑offs between performance, cost, and privacy under three compliance regimes (HIPAA, GDPR, national‑security restrictions). Map stakeholders—sequencing centers, cloud providers, bioinformaticians, and ethical review boards. Chart milestones from Amazon Genomics in the Cloud (2018) through a hypothetical 2027 global federated‑data mesh. Conclude with a risk matrix (data breach, genetic discrimination, research delays) and outline safeguard layers drawing parallels with electronic‑health‑record security evolution."
+    },
+    {
+      "id": "portable-mrna-factories",
+      "type": "factual",
+      "question": "Assume modular containerized mRNA‑vaccine micro‑plants achieve WHO pre‑qualification and are shipped to low‑income countries starting 2026. Calculate throughput (doses per day), cost per dose, and cold‑chain requirements under three plant scales (10 L, 50 L, 200 L bioreactors). Map stakeholder incentives—tech‑transfer hubs, LMIC manufacturers, Gavi, patent pools—while flagging potential trade‑secret bottlenecks. Trace a timeline from BioNTech's BioNTainer concept (2022) to a hypothetical 2028 multi‑country network rollout, highlighting regulatory inspections and workforce training. Compare two use cases—pandemic rapid response and routine childhood immunization. Conclude with a risk matrix (supply disruption, QC failure, export bans) and propose safeguards referencing polio‑vaccine tech‑transfer lessons."
+    },
+    {
+      "id": "gig-economy-insurance",
+      "type": "factual",
+      "question": "Ride‑share and delivery platforms introduce usage‑based micro‑insurance in the US, UK, and India by 2025. Construct an evaluation plan for coverage take‑up, accident‑claim frequency, and driver welfare over three years. Detail telematics data sources, premium algorithms, and compliance with auto‑insurance regulations. Quantify cost savings relative to traditional monthly policies across mileage bands. Map roles of insurers, reinsurers, platforms, and driver associations. Trace policy evolution from early Metromile pay‑per‑mile products (2014) to the 2025 multi‑jurisdiction rollout. Finish with a risk matrix (data privacy, adverse selection, misclassification of workers) and suggest mitigations."
+    },
+    {
+      "id": "geoengineering-albedo",
+      "type": "hypothetical",
+      "question": "Assume a coalition of small‑island states funds a stratospheric aerosol‑injection field trial releasing 100 t SO₂ over the equator in 2032. Provide a first‑principles assessment of expected radiative forcing, regional precipitation shifts, and detection thresholds. Outline aircraft requirements, monitoring instrumentation, and coordination with WMO atmospheric observation networks. Quantify political backlash scenarios and potential impact on UNFCCC negotiations. Map stakeholder positions—funding states, major emitters, climate activists, and far‑north agricultural lobbies. Trace the timeline from the 2021 National Academies geoengineering report to the 2032 trial. Conclude with a risk matrix (termination shock, governance failure, security conflict) and propose safeguards informed by nuclear‑test‑ban verification."
+    },
+    {
+      "id": "industrial-heat-pump-electrification",
+      "type": "factual",
+      "question": "European chemical plants consuming process heat at 180 °C aim to replace natural‑gas boilers with high‑temperature heat pumps by 2030. Draft a retrofit strategy covering compressor technology, working fluids, link‑up with existing heat exchangers, and grid‑connection upgrades. Quantify CAPEX, OPEX, and CO₂ savings under three electricity‑price scenarios (€30, €60, €100 per MWh). Map stakeholder incentives—plant owners, heat‑pump OEMs, utilities, and regulators overseeing ETS allowances. Trace pilot projects from the 2019 Swiss R‑718 demo through a hypothetical 2030 full‑scale retrofit fleet. Conclude with a risk matrix (refrigerant leakage, grid congestion, financial payback uncertainty) and propose safeguards."
+    },
+    {
+      "id": "smart-contract-litigation",
+      "type": "factual",
+      "question": "Courts in the US and UK hear a surge of disputes over faulty DeFi smart contracts causing $5 bn in losses by 2028. Develop a legal analysis framework covering contract formation, code‑as‑law vs external intent, and remedies available when automated execution misallocates funds. Compare case‑law precedents in Chancery, federal courts, and arbitration panels. Quantify average settlement times and recovery ratios. Map stakeholder interests—developers, auditors, DeFi users, insurers, and regulators. Trace the timeline from the 2016 DAO‑hack arbitration to a hypothetical 2028 joint US‑UK judicial guidance note. Conclude with a risk matrix (jurisdictional uncertainty, evidence preservation, systemic contagion) and propose reforms."
+    },
+    {
+      "id": "deepfake-misinformation-law",
+      "type": "factual",
+      "question": "By the 2028 US presidential election, AI tools enable real‑time photorealistic video deepfakes. Draft a legislative proposal to deter malicious deployment without stifling creativity. Specify threshold definitions, labeling mandates, takedown timelines, and safe‑harbor provisions for platforms. Quantify enforcement costs and projected reduction in misinformation reach under three compliance‑rate scenarios (50 %, 75 %, 90 %). Map the interests of civil‑liberties groups, content creators, social‑media firms, and political campaigns. Trace policy milestones from the 2019 Deepfake Detection Challenge to the 2028 proposal. Conclude with a risk matrix (overbroad censorship, free‑speech erosion, selective enforcement) and propose balancing safeguards."
+    },
+    {
+      "id": "quantum-safe-vpn",
+      "type": "factual",
+      "question": "A multinational enterprise operating in finance, healthcare, and defense plans a three‑year migration to post‑quantum secure remote access. Design an implementation path covering algorithm selection (CRYSTALS‑KYBER, BIKE, NTRU), hybrid key‑exchange rollouts, certificate issuance, and user‑device upgrades. Quantify performance overhead and cost. Map stakeholder roles—CISO office, VPN vendors, certificate authorities, and regulators—and compliance checkpoints (PCI‑DSS, HIPAA, export controls). Trace a timeline from NIST Round 3 selections (2022) to enterprise‑wide adoption in 2027. Finish with a risk matrix (interoperability issues, legacy‑system exposure, false sense of security) and mitigation steps."
+    },
+    {
+      "id": "solid-oxide-fuel-cells",
+      "type": "factual",
+      "question": "Solid‑oxide fuel cells for 5 MW distributed generation must achieve an 80,000‑hour stack life and <$1,000/kW installed cost by 2030 to compete with gas turbines. Draft a technology‑development plan detailing material improvements (cathode stability, seal longevity), thermal‑cycling protocols, and modular stack manufacturing. Quantify cost reductions at each stage and impact on net‑plant efficiency. Map industry actors—Bloom Energy, Mitsubishi, research institutes—along with utilities and regulators. Chart milestones from early Bloom servers (2008) to the 2030 target. Conclude with a risk matrix (materials scarcity, thermal‑shock failure, regulatory lag) and countermeasures."
+    },
+    {
+      "id": "ocean-thermal-energy",
+      "type": "factual",
+      "question": "Tropical island states seek to install 100 MW of ocean‑thermal‑energy‑conversion capacity by 2035. Provide engineering design choices for cold‑water pipes, heat exchangers, and floating versus land‑based platforms. Estimate capacity factors, levelized cost of electricity, and co‑product potential (desalinated water, chilled aquaculture) under three depth scenarios (1,000 m, 1,200 m, 1,500 m). Map stakeholders—island utilities, maritime contractors, development banks, and tourism boards. Trace project milestones from the 2017 105 kW Okinawa plant to a hypothetical 2035 multi‑island OTEC network. Conclude with a risk matrix (hurricane damage, biofouling, financing uncertainties) and propose mitigation strategies."
+    },
+    {
+      "id": "graphene-water-desalination",
+      "type": "factual",
+      "question": "Assume graphene‑based nanofiltration membranes reach $10/m² manufacturing cost by 2029. Design a pilot seawater‑desalination plant producing 50,000 m³ per day using such membranes. Specify pretreatment steps, pressure requirements, fouling‑control methods, and energy‑recovery devices. Quantify energy consumption versus reverse‑osmosis benchmarks and compute levelized water cost across three electricity‑price cases ($0.05, $0.10, $0.20 per kWh). Map incentives of membrane suppliers, EPC contractors, utilities, and coastal regulators. Trace a timeline from the 2013 Manchester graphene‑membrane patent to the 2029 pilot commissioning, marking funding rounds and field trials. Conclude with a risk matrix (membrane degradation, brine disposal, supplier concentration) and propose safeguards informed by RO and forward‑osmosis history."
+    }
+  ]

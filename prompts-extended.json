@@ -1,0 +1,152 @@
+[
+  {
+    "id": "coral-reef-genomics",
+    "type": "factual",
+    "question": "Review recent genomic interventions aimed at increasing coral tolerance to thermal stress and outline outstanding technical hurdles."
+  },
+  {
+    "id": "protein-folding-ai",
+    "type": "factual",
+    "question": "Assess the accuracy and limitations of transformer‑based models for predicting protein structures in previously uncharacterized families."
+  },
+  {
+    "id": "quantum-sensor-navigation",
+    "type": "factual",
+    "question": "Analyze progress in quantum inertial sensors for navigation without GPS, including sensitivity benchmarks and commercialization timelines."
+  },
+  {
+    "id": "low-earth-orbit-congestion",
+    "type": "factual",
+    "question": "Quantify current and projected satellite congestion in low Earth orbit and evaluate proposed traffic‑management frameworks."
+  },
+  {
+    "id": "perovskite-solar-stability",
+    "type": "factual",
+    "question": "Critically compare material strategies to improve long‑term stability of perovskite solar cells under outdoor conditions."
+  },
+  {
+    "id": "e-fuels-heavy-transport",
+    "type": "factual",
+    "question": "Estimate cost curves and carbon abatement potential for synthetic e‑fuels in aviation and maritime transport to 2040."
+  },
+  {
+    "id": "neuromorphic-hardware-roadmap",
+    "type": "factual",
+    "question": "Summarize architectural advances in neuromorphic hardware since 2020 and map expected milestones for energy efficiency."
+  },
+  {
+    "id": "ai-supply-chain-risk",
+    "type": "factual",
+    "question": "Evaluate how predictive AI tools are being used to manage supply‑chain disruptions in semiconductor manufacturing."
+  },
+  {
+    "id": "microplastic-bloodstream-health",
+    "type": "factual",
+    "question": "Survey current clinical evidence on the health effects of microplastic particles detected in human blood."
+  },
+  {
+    "id": "metaverse-tax-policy",
+    "type": "factual",
+    "question": "Examine how existing tax codes might apply to income and asset transfers inside large virtual worlds."
+  },
+  {
+    "id": "digital-euro-impact",
+    "type": "factual",
+    "question": "Analyze potential monetary and banking sector impacts if the European Central Bank launches a retail digital euro."
+  },
+  {
+    "id": "water-market-trading",
+    "type": "factual",
+    "question": "Compare water‑rights trading schemes in California, Australia, and Spain, focusing on market liquidity and equity concerns."
+  },
+  {
+    "id": "antimicrobial-resistance-phage",
+    "type": "factual",
+    "question": "Assess recent clinical trials testing bacteriophage therapy as an alternative to antibiotics for drug‑resistant infections."
+  },
+  {
+    "id": "brain-computer-interface-ethics",
+    "type": "hypothetical",
+    "question": "Propose ethical and regulatory safeguards for invasive brain–computer interfaces intended for consumer use."
+  },
+  {
+    "id": "climate-induced-migration",
+    "type": "hypothetical",
+    "question": "Model projected internal migration patterns within Sub‑Saharan Africa under a 3 °C warming scenario."
+  },
+  {
+    "id": "3d-printed-rocket-engines",
+    "type": "factual",
+    "question": "Evaluate performance and cost outcomes from using additive manufacturing for liquid rocket engine components."
+  },
+  {
+    "id": "space-based-solar-power",
+    "type": "factual",
+    "question": "Assess technological readiness and launch‑cost thresholds required for commercially viable space‑based solar power."
+  },
+  {
+    "id": "blue-hydrogen-lifecycle",
+    "type": "factual",
+    "question": "Perform a life‑cycle assessment of blue hydrogen production pathways using autothermal reforming with carbon capture."
+  },
+  {
+    "id": "autonomous-farming-robots",
+    "type": "hypothetical",
+    "question": "Estimate productivity gains and labor displacement from autonomous harvesters in mid‑size grain farms."
+  },
+  {
+    "id": "bioinformatics-cloud-security",
+    "type": "factual",
+    "question": "Investigate security challenges of storing genomic data in public clouds and review emerging encryption solutions."
+  },
+  {
+    "id": "portable-mrna-factories",
+    "type": "factual",
+    "question": "Analyze modular mRNA vaccine micro‑factories designed for rapid deployment in low‑resource regions."
+  },
+  {
+    "id": "gig-economy-insurance",
+    "type": "factual",
+    "question": "Compare new insurance products targeting ride‑share and delivery workers across three major economies."
+  },
+  {
+    "id": "geoengineering-albedo",
+    "type": "hypothetical",
+    "question": "Debate governance frameworks for possible deployment of stratospheric aerosol injection to increase planetary albedo."
+  },
+  {
+    "id": "industrial-heat-pump-electrification",
+    "type": "factual",
+    "question": "Assess technical and economic barriers to replacing fossil‑fired industrial heat with high‑temperature heat pumps."
+  },
+  {
+    "id": "smart-contract-litigation",
+    "type": "factual",
+    "question": "Examine how courts have adjudicated disputes arising from faulty smart contracts on public blockchains."
+  },
+  {
+    "id": "deepfake-misinformation-law",
+    "type": "factual",
+    "question": "Evaluate legislative proposals aimed at curbing political deepfake videos during election campaigns."
+  },
+  {
+    "id": "quantum-safe-vpn",
+    "type": "factual",
+    "question": "Design a migration path for a multinational corporation to adopt quantum‑resistant VPN protocols."
+  },
+  {
+    "id": "solid-oxide-fuel-cells",
+    "type": "factual",
+    "question": "Review durability improvements in solid oxide fuel cells for distributed power generation."
+  },
+  {
+    "id": "ocean-thermal-energy",
+    "type": "factual",
+    "question": "Analyze resource potential and cost trends for ocean thermal energy conversion in tropical island states."
+  },
+  {
+    "id": "graphene-water-desalination",
+    "type": "factual",
+    "question": "Assess the scalability of graphene‑based membranes for low‑energy seawater desalination."
+  }
+]
