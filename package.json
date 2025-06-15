@@ -17,6 +17,7 @@
     "prettier": "^3.3.0",
     "typescript": "^5.4.5"
   },
+  "type": "module",
   "scripts": {
     "format": "prettier --write .",
     "start": "tsx cli.tsx"
