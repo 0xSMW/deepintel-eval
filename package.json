@@ -23,7 +23,7 @@
   "type": "module",
   "scripts": {
     "format": "prettier --write .",
-    "start": "tsx cli.tsx"
+    "start": "tsx src/cli.tsx"
   },
   "pnpm": {
     "overrides": {

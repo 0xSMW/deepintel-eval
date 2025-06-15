@@ -33,15 +33,36 @@ const MODELS_BY_PROVIDER: Record<string, { label: string; value: string }[]> = {
     { label: 'gpt-4.1-2025-04-14', value: 'gpt-4.1-2025-04-14' },
     { label: 'gpt-4.1-mini-2025-04-14', value: 'gpt-4.1-mini-2025-04-14' },
     { label: 'gpt-4.1-nano-2025-04-14', value: 'gpt-4.1-nano-2025-04-14' },
-    { label: 'gpt-4.5-preview-2025-02-27', value: 'gpt-4.5-preview-2025-02-27' },
+    {
+      label: 'gpt-4.5-preview-2025-02-27',
+      value: 'gpt-4.5-preview-2025-02-27',
+    },
     { label: 'gpt-4o-2024-08-06', value: 'gpt-4o-2024-08-06' },
-    { label: 'gpt-4o-audio-preview-2024-12-17', value: 'gpt-4o-audio-preview-2024-12-17' },
-    { label: 'gpt-4o-realtime-preview-2024-12-17', value: 'gpt-4o-realtime-preview-2024-12-17' },
+    {
+      label: 'gpt-4o-audio-preview-2024-12-17',
+      value: 'gpt-4o-audio-preview-2024-12-17',
+    },
+    {
+      label: 'gpt-4o-realtime-preview-2024-12-17',
+      value: 'gpt-4o-realtime-preview-2024-12-17',
+    },
     { label: 'gpt-4o-mini-2024-07-18', value: 'gpt-4o-mini-2024-07-18' },
-    { label: 'gpt-4o-mini-audio-preview-2024-12-17', value: 'gpt-4o-mini-audio-preview-2024-12-17' },
-    { label: 'gpt-4o-mini-realtime-preview-2024-12-17', value: 'gpt-4o-mini-realtime-preview-2024-12-17' },
-    { label: 'gpt-4o-mini-search-preview-2025-03-11', value: 'gpt-4o-mini-search-preview-2025-03-11' },
-    { label: 'gpt-4o-search-preview-2025-03-11', value: 'gpt-4o-search-preview-2025-03-11' },
+    {
+      label: 'gpt-4o-mini-audio-preview-2024-12-17',
+      value: 'gpt-4o-mini-audio-preview-2024-12-17',
+    },
+    {
+      label: 'gpt-4o-mini-realtime-preview-2024-12-17',
+      value: 'gpt-4o-mini-realtime-preview-2024-12-17',
+    },
+    {
+      label: 'gpt-4o-mini-search-preview-2025-03-11',
+      value: 'gpt-4o-mini-search-preview-2025-03-11',
+    },
+    {
+      label: 'gpt-4o-search-preview-2025-03-11',
+      value: 'gpt-4o-search-preview-2025-03-11',
+    },
     { label: 'gpt-4o-2025-05-13', value: 'gpt-4o-2025-05-13' },
     { label: 'gpt-4.5-turbo', value: 'gpt-4.5-turbo' },
     { label: 'gpt-3.5-turbo-0125', value: 'gpt-3.5-turbo-0125' },
@@ -53,29 +74,62 @@ const MODELS_BY_PROVIDER: Record<string, { label: string; value: string }[]> = {
     { label: 'o3-mini-2025-01-31', value: 'o3-mini-2025-01-31' },
     { label: 'o4-mini-2025-04-16', value: 'o4-mini-2025-04-16' },
     { label: 'codex-mini-latest', value: 'codex-mini-latest' },
-    { label: 'computer-use-preview-2025-03-11', value: 'computer-use-preview-2025-03-11' },
+    {
+      label: 'computer-use-preview-2025-03-11',
+      value: 'computer-use-preview-2025-03-11',
+    },
     { label: 'gpt-image-1', value: 'gpt-image-1' },
   ],
   anthropic: [
     { label: 'claude-opus-4-20250514', value: 'claude-opus-4-20250514' },
     { label: 'claude-sonnet-4-20250514', value: 'claude-sonnet-4-20250514' },
-    { label: 'claude-3-7-sonnet-20250219', value: 'claude-3-7-sonnet-20250219' },
+    {
+      label: 'claude-3-7-sonnet-20250219',
+      value: 'claude-3-7-sonnet-20250219',
+    },
     { label: 'claude-3-5-haiku-20241022', value: 'claude-3-5-haiku-20241022' },
-    { label: 'claude-3-5-sonnet-20241022', value: 'claude-3-5-sonnet-20241022' },
-    { label: 'claude-3-5-sonnet-20240620', value: 'claude-3-5-sonnet-20240620' },
+    {
+      label: 'claude-3-5-sonnet-20241022',
+      value: 'claude-3-5-sonnet-20241022',
+    },
+    {
+      label: 'claude-3-5-sonnet-20240620',
+      value: 'claude-3-5-sonnet-20240620',
+    },
     { label: 'claude-3-opus-20240229', value: 'claude-3-opus-20240229' },
     { label: 'claude-3-sonnet-20240229', value: 'claude-3-sonnet-20240229' },
     { label: 'claude-3-haiku-20240307', value: 'claude-3-haiku-20240307' },
   ],
   google: [
-    { label: 'gemini-2.5-flash-preview-05-20', value: 'gemini-2.5-flash-preview-05-20' },
-    { label: 'gemini-2.5-flash-preview-native-audio-dialog', value: 'gemini-2.5-flash-preview-native-audio-dialog' },
-    { label: 'gemini-2.5-flash-exp-native-audio-thinking-dialog', value: 'gemini-2.5-flash-exp-native-audio-thinking-dialog' },
-    { label: 'gemini-2.5-flash-preview-tts', value: 'gemini-2.5-flash-preview-tts' },
-    { label: 'gemini-2.5-pro-preview-06-05', value: 'gemini-2.5-pro-preview-06-05' },
-    { label: 'gemini-2.5-pro-preview-tts', value: 'gemini-2.5-pro-preview-tts' },
+    {
+      label: 'gemini-2.5-flash-preview-05-20',
+      value: 'gemini-2.5-flash-preview-05-20',
+    },
+    {
+      label: 'gemini-2.5-flash-preview-native-audio-dialog',
+      value: 'gemini-2.5-flash-preview-native-audio-dialog',
+    },
+    {
+      label: 'gemini-2.5-flash-exp-native-audio-thinking-dialog',
+      value: 'gemini-2.5-flash-exp-native-audio-thinking-dialog',
+    },
+    {
+      label: 'gemini-2.5-flash-preview-tts',
+      value: 'gemini-2.5-flash-preview-tts',
+    },
+    {
+      label: 'gemini-2.5-pro-preview-06-05',
+      value: 'gemini-2.5-pro-preview-06-05',
+    },
+    {
+      label: 'gemini-2.5-pro-preview-tts',
+      value: 'gemini-2.5-pro-preview-tts',
+    },
     { label: 'gemini-2.0-flash', value: 'gemini-2.0-flash' },
-    { label: 'gemini-2.0-flash-preview-image-generation', value: 'gemini-2.0-flash-preview-image-generation' },
+    {
+      label: 'gemini-2.0-flash-preview-image-generation',
+      value: 'gemini-2.0-flash-preview-image-generation',
+    },
     { label: 'gemini-2.0-flash-lite', value: 'gemini-2.0-flash-lite' },
     { label: 'gemini-1.5-flash', value: 'gemini-1.5-flash' },
     { label: 'gemini-1.5-flash-8b', value: 'gemini-1.5-flash-8b' },
@@ -94,7 +148,11 @@ type MenuStep =
   | 'chooseEvalProvider'
   | 'chooseEvalModel'
 
-const SettingsMenu = ({ defaultModels, defaultEvaluator, onSubmit }: SettingsMenuProps) => {
+const SettingsMenu = ({
+  defaultModels,
+  defaultEvaluator,
+  onSubmit,
+}: SettingsMenuProps) => {
   const [step, setStep] = useState<MenuStep>('chooseModelProvider')
   const [currentProvider, setCurrentProvider] = useState<string>('')
   const [models, setModels] = useState<string[]>(defaultModels)
@@ -125,15 +183,17 @@ const SettingsMenu = ({ defaultModels, defaultEvaluator, onSubmit }: SettingsMen
   if (step === 'chooseModelProvider') {
     return (
       <Box flexDirection="column">
-        <Text color="green">Select provider for model {models.length + 1}:</Text>
+        <Text color="green">
+          Select provider for model {models.length + 1}:
+        </Text>
         {renderSelect(PROVIDERS, (provider) => {
           setCurrentProvider(provider)
           setStep('chooseModel')
         })}
         {models.length > 0 && (
           <Text>
-            Already selected: {models.join(', ')} (press ↑/↓ to navigate, Enter to
-            choose)
+            Already selected: {models.join(', ')} (press ↑/↓ to navigate, Enter
+            to choose)
           </Text>
         )}
       </Box>
@@ -166,10 +226,14 @@ const SettingsMenu = ({ defaultModels, defaultEvaluator, onSubmit }: SettingsMen
     return (
       <Box flexDirection="column">
         <Text color="green">Select model from {currentProvider}:</Text>
-        {renderSelect(modelItems, (model) => {
-          setModels([...models, `${currentProvider}:${model}`])
-          setStep('addMoreModels')
-        }, { showBack: true, onBack: () => setStep('chooseModelProvider') })}
+        {renderSelect(
+          modelItems,
+          (model) => {
+            setModels([...models, `${currentProvider}:${model}`])
+            setStep('addMoreModels')
+          },
+          { showBack: true, onBack: () => setStep('chooseModelProvider') },
+        )}
       </Box>
     )
   }
@@ -201,10 +265,14 @@ const SettingsMenu = ({ defaultModels, defaultEvaluator, onSubmit }: SettingsMen
     return (
       <Box flexDirection="column">
         <Text color="green">Select provider for evaluator model:</Text>
-        {renderSelect(PROVIDERS, (provider) => {
-          setEvalProvider(provider)
-          setStep('chooseEvalModel')
-        }, { showBack: true, onBack: () => setStep('addMoreModels') })}
+        {renderSelect(
+          PROVIDERS,
+          (provider) => {
+            setEvalProvider(provider)
+            setStep('chooseEvalModel')
+          },
+          { showBack: true, onBack: () => setStep('addMoreModels') },
+        )}
       </Box>
     )
   }
@@ -233,9 +301,13 @@ const SettingsMenu = ({ defaultModels, defaultEvaluator, onSubmit }: SettingsMen
     return (
       <Box flexDirection="column">
         <Text color="green">Select evaluator model from {evalProvider}:</Text>
-        {renderSelect(items, (model) => {
-          onSubmit(models, `${evalProvider}:${model}`)
-        }, { showBack: true, onBack: () => setStep('chooseEvalProvider') })}
+        {renderSelect(
+          items,
+          (model) => {
+            onSubmit(models, `${evalProvider}:${model}`)
+          },
+          { showBack: true, onBack: () => setStep('chooseEvalProvider') },
+        )}
       </Box>
     )
   }
@@ -387,7 +459,7 @@ function parseArgs() {
   const args = process.argv.slice(2)
   let targets: string[] = ['xai:grok-3-mini']
   let evaluator = ''
-  let promptsPath = 'prompts.json'
+  let promptsPath = 'prompts/prompts.json'
   let interactive = true
   for (let i = 0; i < args.length; i++) {
     const arg = args[i]
@@ -413,13 +485,20 @@ const { targets, evaluator, promptsPath, interactive } = parseArgs()
 interface StartViewProps {
   models: string[]
   evaluator: string
+  onStart: () => void
+  onSettings: () => void
+}
+
 // Simple welcome screen shown on startup
-const StartView = ({ onStart }: { onStart: () => void }) => {
-  // Handle key presses: Enter to continue, q to quit
+const StartView = ({
+  models,
+  evaluator,
+  onStart,
+  onSettings,
+}: StartViewProps) => {
+  // Allow quitting with q or escape
   useInput((input, key) => {
-    if (key.return) {
-      onStart()
-    } else if (input.toLowerCase() === 'q' || key.escape) {
+    if (input.toLowerCase() === 'q' || key.escape) {
       process.exit(0)
     }
   })
@@ -427,12 +506,31 @@ const StartView = ({ onStart }: { onStart: () => void }) => {
   return (
     <Box flexDirection="column">
       <Text color="cyan">DeepIntel Evaluation Harness</Text>
-      <Text>Press Enter to configure and start an evaluation (q to quit).</Text>
+      <Text>Current models: {models.join(', ')}</Text>
+      <Text>Evaluator: {evaluator}</Text>
+      <Text>
+        Select an option and press Enter (↑/↓ to navigate, q or Esc to quit).
+      </Text>
+      <SelectInput
+        items={[
+          { label: 'Start', value: 'start' },
+          { label: 'Settings', value: 'settings' },
+        ]}
+        onSelect={(item) => {
+          if (item.value === 'start') onStart()
+          else onSettings()
+        }}
+      />
     </Box>
   )
 }
 
 const Root = () => {
+  useInput((input, key) => {
+    if (key.escape) {
+      process.exit(0)
+    }
+  })
   const [phase, setPhase] = useState<'start' | 'settings' | 'run'>(
     interactive ? 'start' : 'run',
   )
@@ -443,7 +541,17 @@ const Root = () => {
 
   // Start view
   if (phase === 'start') {
-    return <StartView onStart={() => setPhase('settings')} />
+    return (
+      <StartView
+        models={targets}
+        evaluator={evaluator}
+        onStart={() => {
+          setSettings({ models: targets, evaluator })
+          setPhase('run')
+        }}
+        onSettings={() => setPhase('settings')}
+      />
+    )
   }
 
   // Settings menu

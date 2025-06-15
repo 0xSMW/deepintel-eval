@@ -2,7 +2,7 @@
 
 DeepIntel Eval is a structured framework for assessing language-model intelligence. It focuses on measuring content depth, specificity, reasoning quality, and presentation clarity—the ingredients of actionable intelligence.
 
-It ships as a simple TypeScript CLI that you can point at any set of prompts (default: `prompts.json`). Answers are automatically scored by an evaluator model, and the raw results are written to `results.json` for further analysis.
+It ships as a simple TypeScript CLI that you can point at any set of prompts (default: `prompts/prompts.json`). Answers are automatically scored by an evaluator model, and the raw results are written to `results.json` for further analysis.
 
 It works with the xAI, OpenAI, Anthropic, and Google Generative AI providers out of the box.
 
@@ -53,11 +53,11 @@ For hypothetical scenarios two different extras are applied:
 
 DeepIntel Eval ships with a balanced prompt set covering:
 
-- Historical analysis  
-- Technical explanation  
-- Geopolitical assessment  
-- Hypothetical scenario planning  
-- Intelligence briefings  
+- Historical analysis
+- Technical explanation
+- Geopolitical assessment
+- Hypothetical scenario planning
+- Intelligence briefings
 - Source-focused citation checks
 
 You can swap these for your own by passing `--prompts path/to/prompts.json`.
@@ -66,14 +66,14 @@ You can swap these for your own by passing `--prompts path/to/prompts.json`.
 
 Each criterion is rated **0–5**.
 
-| Score | Meaning                                   |
-|-------|-------------------------------------------|
-| 0     | No relevant content                       |
-| 1     | Minimal or off-topic                      |
-| 2     | Basic coverage, lacks detail              |
-| 3     | Moderate depth with some specifics        |
-| 4     | Good depth, specificity, and clarity      |
-| 5     | Exceptional detail, precision, organized  |
+| Score | Meaning                                  |
+| ----- | ---------------------------------------- |
+| 0     | No relevant content                      |
+| 1     | Minimal or off-topic                     |
+| 2     | Basic coverage, lacks detail             |
+| 3     | Moderate depth with some specifics       |
+| 4     | Good depth, specificity, and clarity     |
+| 5     | Exceptional detail, precision, organized |
 
 Totals are out of **30 points** (6 criteria × 5) for factual questions and **30 points** for hypothetical questions (using the alternative criteria set).
 
