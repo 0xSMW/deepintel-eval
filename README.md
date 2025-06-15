@@ -1,11 +1,10 @@
 # DeepIntel Eval
 
-DeepIntel Eval is a structured framework for assessing language-model intelligence. It focuses on measuring **content depth**, **specificity**, **reasoning quality**, and **presentation clarity**—the ingredients of actionable intelligence.
+DeepIntel Eval is a structured framework for assessing language-model intelligence. It focuses on measuring content depth, specificity, reasoning quality, and presentation clarity—the ingredients of actionable intelligence.
 
 It ships as a simple TypeScript CLI that you can point at any set of prompts (default: `prompts.json`). Answers are automatically scored by an evaluator model, and the raw results are written to `results.json` for further analysis.
 
 It works with the xAI, OpenAI, Anthropic, and Google Generative AI providers out of the box.
-
 
 ---
 
