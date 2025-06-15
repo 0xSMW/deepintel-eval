@@ -4,6 +4,9 @@ DeepIntel Eval is a structured framework for assessing language-model intelligen
 
 It ships as a simple TypeScript CLI that you can point at any set of prompts (default: `prompts.json`). Answers are automatically scored by an evaluator model, and the raw results are written to `results.json` for further analysis.
 
+It works with the xAI, OpenAI, Anthropic, and Google Generative AI providers out of the box.
+
+
 ---
 
 ## 🚀 Quick start
@@ -15,6 +18,8 @@ pnpm install
 # 2 – set your provider keys
 export XAI_API_KEY="sk-your-xai-key"
 export OPENAI_API_KEY="sk-your-openai-key"
+export ANTHROPIC_API_KEY="sk-your-anthropic-key"
+export GOOGLE_GENERATIVE_AI_API_KEY="sk-your-google-key"
 
 # 3 – run the benchmark with a model of your choice
 pnpm start -- --model <provider>:<model-name>

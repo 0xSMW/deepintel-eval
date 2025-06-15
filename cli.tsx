@@ -190,6 +190,8 @@ const SettingsMenu = ({ defaultModels, defaultEvaluator, onSubmit }: SettingsMen
 import { generateText } from 'ai'
 import { xai } from '@ai-sdk/xai'
 import { openai } from '@ai-sdk/openai'
+import { anthropic } from '@ai-sdk/anthropic'
+import { google } from '@ai-sdk/google'
 import * as fs from 'node:fs/promises'
 
 interface PromptItem {
@@ -204,6 +206,8 @@ function getModel(spec: string) {
     : ['xai', spec]
   if (provider === 'xai') return xai(model)
   if (provider === 'openai') return openai(model)
+  if (provider === 'anthropic') return anthropic(model)
+  if (provider === 'google') return google(model)
   throw new Error(`Unknown provider '${provider}'`)
 }
 
