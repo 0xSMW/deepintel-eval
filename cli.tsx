@@ -410,9 +410,6 @@ function parseArgs() {
 
 const { targets, evaluator, promptsPath, interactive } = parseArgs()
 
-interface StartViewProps {
-  models: string[]
-  evaluator: string
 // Simple welcome screen shown on startup
 const StartView = ({ onStart }: { onStart: () => void }) => {
   // Handle key presses: Enter to continue, q to quit
