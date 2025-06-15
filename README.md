@@ -1,6 +1,7 @@
 # AI Benchmark Harness
 
 A simple TypeScript CLI that evaluates language models against a set of benchmark prompts. Prompts live in `prompts.json`, and results are written to `results.json`.
+It works with the xAI, OpenAI, Anthropic, and Google Generative AI providers out of the box.
 
 ---
 
@@ -13,6 +14,8 @@ pnpm install
 # 2 – set your provider keys
 export XAI_API_KEY="sk-your-xai-key"
 export OPENAI_API_KEY="sk-your-openai-key"
+export ANTHROPIC_API_KEY="sk-your-anthropic-key"
+export GOOGLE_GENERATIVE_AI_API_KEY="sk-your-google-key"
 
 # 3 – run the benchmark using Grok 3 Mini
 pnpm start -- --model xai:grok-3-mini
