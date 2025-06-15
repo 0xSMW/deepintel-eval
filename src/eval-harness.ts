@@ -66,7 +66,7 @@ async function main() {
   const args = process.argv.slice(2)
   let target = 'xai:grok-3-mini'
   let evaluator = target
-  let promptsPath = 'prompts.json'
+  let promptsPath = 'prompts/prompts.json'
 
   for (let i = 0; i < args.length; i++) {
     const arg = args[i]
